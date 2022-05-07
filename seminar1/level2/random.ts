@@ -59,11 +59,9 @@ const dinner: Dinner = {
         let ob: Member | undefined  = participants.find((member: Member) => (member.group === 'ob')) as Member;
         let yb: Member | undefined = participants.find((member: Member) => (member.group ==='yb')) as Member;
         
-       
-       
-        // if( typeof ob === 'Member'){
+        //  if( typeof ob === 'Member'){
            
-        // } interface는 type of 불가능
+        //  } interface는 type of 불가능
 
         if ( typeof ob.name === 'string'){
             //dinnerMember[0] = ob.name; // 직접 인덱스에 접근하는 것은 위험한 방식
