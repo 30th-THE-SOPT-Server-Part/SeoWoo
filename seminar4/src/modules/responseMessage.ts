@@ -10,12 +10,18 @@ const message = {
     DELETE_USER_SUCCESS: '유저 삭제 성공',
     UPDATE_USER_SUCCESS: '유저 수정 성공',
 
-    //블로그 조회
-    READ_BLOG_SUCCESS: '블로그 글 조회 성공',
-    CREATE_BLOG_SUCCESS: '블로그 글 생성 성공',
-    DELETE_BLOG_SUCCESS: '블로그 글 삭제 성공',
-    UPDATE_BLOG_SUCCESS: '블로그 글 수정 성공',
+    // 영화 조회
+     READ_MOVIE_SUCCESS: '영화 조회 성공',
+     CREATE_MOVIE_SUCCESS: '영화 생성 성공',
+     DELETE_MOVIE_SUCCESS: '영화 삭제 성공',
+     UPDATE_MOVIE_SUCCESS: '영화 수정 성공',
 
+    // 리뷰
+    READ_REVIEW_SUCCESS: '리뷰 조회 성공',
+    CREATE_REVIEW_SUCCESS: '리뷰 생성 성공',
+    DELETE_REVIEW_SUCCESS: '리뷰 삭제 성공',
+    UPDATE_REVIEW_SUCCESS: '리뷰 수정 성공',
+    
 }
 
 export default message;
